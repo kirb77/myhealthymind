@@ -4,84 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Healthy Mind</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: linear-gradient(to bottom, #4facfe, #00f2fe);
+        }
+
+        header {
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #4facfe;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 80vh;
+            text-align: center;
+            padding: 0 2rem;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            color: #ffffff;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #ffffff;
+            margin-bottom: 2rem;
+        }
+
+        .cta-button {
+            background-color: #ffffff;
+            color: #4facfe;
+            padding: 0.8rem 1.5rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-transform: uppercase;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #ffffff;
+            color: #666;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
-    <!-- Hero Section -->
-    <header class="hero">
-        <div class="hero-content">
-            <h1>Your Journey to a Healthier Mind Starts Here</h1>
-            <p>Empowering you to navigate anxiety and depression with affordable AI support.</p>
-            <a href="#services" class="cta">Start Now</a>
-            <a href="#about" class="cta secondary">Learn More</a>
-        </div>
+    <header>
+        <h1>My Healthy Mind</h1>
+        <p>Your Journey to a Happier, Healthier You</p>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <h2>Why My Healthy Mind?</h2>
-        <p>Our mission is to make mental health support accessible, affordable, and effective using innovative AI solutions and evidence-based practices.</p>
-    </section>
+    <div class="hero">
+        <h2>Welcome to Your Safe Space</h2>
+        <p>Discover tools, insights, and support to take control of your mental well-being. Start your journey today.</p>
+        <button class="cta-button">Get Started</button>
+    </div>
 
-    <!-- Features Section -->
-    <section id="services" class="features">
-        <h2>What We Offer</h2>
-        <div class="feature-cards">
-            <div class="card">
-                <h3>AI Chatbot Support</h3>
-                <p>Personalized, empathetic guidance at your fingertips.</p>
-            </div>
-            <div class="card">
-                <h3>Affordable Solutions</h3>
-                <p>Making mental health support accessible to everyone.</p>
-            </div>
-            <div class="card">
-                <h3>Resources for Growth</h3>
-                <p>Practical tips, articles, and exercises tailored to your needs.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Blog Section -->
-    <section id="blog" class="blog">
-        <h2>Insights for a Healthier Mind</h2>
-        <div class="blog-posts">
-            <article>
-                <h3>5 Tips to Manage Anxiety Today</h3>
-                <p>Learn actionable tips to help you navigate anxiety more effectively.</p>
-            </article>
-            <article>
-                <h3>How AI Can Transform Your Mental Health Journey</h3>
-                <p>Discover the ways AI is revolutionizing mental health support.</p>
-            </article>
-            <article>
-                <h3>Practical Exercises for a Balanced Mind</h3>
-                <p>Explore simple exercises to promote mental well-being.</p>
-            </article>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <h2>Need Help or Have Questions?</h2>
-        <p>Reach out to us anytime. We're here to help you on your journey to a healthier mind.</p>
-        <form action="#">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <p>&copy; 2024 My Healthy Mind. All rights reserved.</p>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#about">About</a>
-            <a href="#blog">Blog</a>
-            <a href="#contact">Contact</a>
-        </nav>
+    <footer>
+        <p>&copy; 2024 My Healthy Mind. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
